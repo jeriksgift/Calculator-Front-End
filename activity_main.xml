@@ -26,25 +26,23 @@
             android:background="@color/cardview_dark_background"
             android:gravity="top|start"
             android:padding="10dp"
-            android:text="20"
             android:textColor="@color/white"
             android:textSize="30sp"
-            android:weight="1"
+            android:layout_weight="1"
             tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/resultsTextView"
             android:layout_width="match_parent"
-            android:layout_height="99dp"
+            android:layout_height="147dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
             android:background="@color/cardview_dark_background"
             android:gravity="bottom|end"
             android:padding="10dp"
-            android:text="20"
             android:textAlignment="textEnd"
             android:textColor="@color/white"
-            android:textSize="50sp"
-            android:weight="1"
+            android:textSize="30sp"
             tools:ignore="HardcodedText" />
 
     </LinearLayout>
@@ -129,7 +127,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="@color/grey"
-                android:onClick="clearOnClick"
+                android:onClick="powerOfOnClick"
                 android:text="^"
                 android:textColor="@color/white"
                 android:textSize="48sp" />
@@ -137,9 +135,9 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:onClick="fourOnClick"
                 android:text="4"
+                android:layout_weight="1"
                 android:textSize="50sp"
                 android:backgroundTint="@color/grey"
                 android:textColor="@color/white" />
